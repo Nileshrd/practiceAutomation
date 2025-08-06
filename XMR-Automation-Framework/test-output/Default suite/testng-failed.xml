@@ -8,8 +8,8 @@
           <include name="flushReport"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="TC_Login_006_sessionExpiryCheck"/>
           <include name="setupReport"/>
+          <include name="TC_Login_006_sessionExpiryCheck"/>
         </methods>
       </class> <!-- com.fortrea.xmr.tests.LoginTest -->
     </classes>

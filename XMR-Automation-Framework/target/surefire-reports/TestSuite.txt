@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 45.85 s <<< FAILURE! -- in TestSuite
-com.fortrea.xmr.tests.LoginTest.TC_Login_006_sessionExpiryCheck -- Time elapsed: 1.270 s <<< FAILURE!
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 48.47 s <<< FAILURE! -- in TestSuite
+com.fortrea.xmr.tests.LoginTest.TC_Login_006_sessionExpiryCheck -- Time elapsed: 1.087 s <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.navigate()" because "com.fortrea.xmr.tests.LoginTest.driver" is null
 	at com.fortrea.xmr.tests.LoginTest.TC_Login_006_sessionExpiryCheck(LoginTest.java:67)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
