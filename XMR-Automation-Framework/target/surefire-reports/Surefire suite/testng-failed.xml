@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.fortrea.xmr.tests.AddNewViewTest">
+        <methods>
+          <include name="flushReport"/>
+          <include name="testAddNewViewOpens"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="testOpenEachView"/>
+          <include name="setupReport"/>
+        </methods>
+      </class> <!-- com.fortrea.xmr.tests.AddNewViewTest -->
+      <class name="com.fortrea.xmr.tests.DashboardTest">
+        <methods>
+          <include name="flushReport"/>
+          <include name="testAddNewView"/>
+          <include name="setup"/>
+          <include name="testOpenGemcitabineReport"/>
+          <include name="tearDown"/>
+          <include name="setupReport"/>
+          <include name="testSearchFilter"/>
+          <include name="testSubjectTilePresent"/>
+        </methods>
+      </class> <!-- com.fortrea.xmr.tests.DashboardTest -->
+      <class name="com.fortrea.xmr.tests.LoginTest">
+        <methods>
+          <include name="flushReport"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="setupReport"/>
+          <include name="TC_Login_006_sessionExpiryCheck"/>
+        </methods>
+      </class> <!-- com.fortrea.xmr.tests.LoginTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

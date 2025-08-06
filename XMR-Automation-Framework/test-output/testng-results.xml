@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-06T01:14:15 IST" name="XMR Test Suite" finished-at="2025-08-06T01:14:58 IST" duration-ms="42343">
+    <groups>
+    </groups>
+    <test started-at="2025-08-06T01:14:15 IST" name="Smoke Suite" finished-at="2025-08-06T01:14:58 IST" duration-ms="42343">
+      <class name="com.fortrea.xmr.tests.LoginTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@2362f559]" started-at="2025-08-06T01:14:15 IST" name="setupReport" finished-at="2025-08-06T01:14:15 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@2362f559]" started-at="2025-08-06T01:14:15 IST" name="setup" finished-at="2025-08-06T01:14:24 IST" duration-ms="8552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithValidCredentials()[pri:1, instance:com.fortrea.xmr.tests.LoginTest@2362f559]" started-at="2025-08-06T01:14:24 IST" name="loginWithValidCredentials" finished-at="2025-08-06T01:14:31 IST" duration-ms="7021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@2362f559]" started-at="2025-08-06T01:14:31 IST" name="tearDown" finished-at="2025-08-06T01:14:32 IST" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@2362f559]" started-at="2025-08-06T01:14:32 IST" name="setup" finished-at="2025-08-06T01:14:36 IST" duration-ms="4945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginWithInValidCredentials()[pri:2, instance:com.fortrea.xmr.tests.LoginTest@2362f559]" started-at="2025-08-06T01:14:36 IST" name="loginWithInValidCredentials" finished-at="2025-08-06T01:14:42 IST" duration-ms="5577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@2362f559]" started-at="2025-08-06T01:14:42 IST" name="tearDown" finished-at="2025-08-06T01:14:43 IST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@2362f559]" started-at="2025-08-06T01:14:43 IST" name="setup" finished-at="2025-08-06T01:14:47 IST" duration-ms="3971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_Login_004_passwordRequiredValidation()[pri:3, instance:com.fortrea.xmr.tests.LoginTest@2362f559]" started-at="2025-08-06T01:14:47 IST" name="TC_Login_004_passwordRequiredValidation" finished-at="2025-08-06T01:14:47 IST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Login_004_passwordRequiredValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@2362f559]" started-at="2025-08-06T01:14:47 IST" name="tearDown" finished-at="2025-08-06T01:14:48 IST" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@2362f559]" started-at="2025-08-06T01:14:48 IST" name="setup" finished-at="2025-08-06T01:14:52 IST" duration-ms="3952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_Login_003_blankUsernameOrPassword()[pri:4, instance:com.fortrea.xmr.tests.LoginTest@2362f559]" started-at="2025-08-06T01:14:52 IST" name="TC_Login_003_blankUsernameOrPassword" finished-at="2025-08-06T01:14:52 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Login_003_blankUsernameOrPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@2362f559]" started-at="2025-08-06T01:14:52 IST" name="tearDown" finished-at="2025-08-06T01:14:52 IST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@2362f559]" started-at="2025-08-06T01:14:52 IST" name="setup" finished-at="2025-08-06T01:14:56 IST" duration-ms="3730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC_Login_006_sessionExpiryCheck()[pri:5, instance:com.fortrea.xmr.tests.LoginTest@2362f559]" started-at="2025-08-06T01:14:56 IST" name="TC_Login_006_sessionExpiryCheck" finished-at="2025-08-06T01:14:57 IST" duration-ms="517" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.navigate()" because "com.fortrea.xmr.tests.LoginTest.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.navigate()" because "com.fortrea.xmr.tests.LoginTest.driver" is null
+at com.fortrea.xmr.tests.LoginTest.TC_Login_006_sessionExpiryCheck(LoginTest.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Login_006_sessionExpiryCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@2362f559]" started-at="2025-08-06T01:14:57 IST" name="tearDown" finished-at="2025-08-06T01:14:58 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@2362f559]" started-at="2025-08-06T01:14:58 IST" name="flushReport" finished-at="2025-08-06T01:14:58 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.fortrea.xmr.tests.LoginTest -->
+    </test> <!-- Smoke Suite -->
+  </suite> <!-- XMR Test Suite -->
+</testng-results>
