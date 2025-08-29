@@ -4,19 +4,20 @@ import java.io.FileInputStream;
 import java.util.Properties;
 
 public class ConfigReader {
-    static Properties prop;
+	private static Properties prop;;
 
-    public static void loadProperties() {
+    static {
         try {
+        	prop = new Properties();
             FileInputStream fis = new FileInputStream("config.properties");
-            prop = new Properties();
+           
             prop.load(fis);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    public static String get(String key) {
+    public static String getProperty(String key) {
         return prop.getProperty(key);
     }
 }

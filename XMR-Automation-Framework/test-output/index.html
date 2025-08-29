@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-XMR_Test_Suite" class="navigator-link ">
-                    <span>D:\IT\XMR-Automation-Framework\testng.xml</span>
+                    <span>D:\IT\practiceAutomation\XMR-Automation-Framework\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -158,14 +158,33 @@
                   <a name="TC_Login_006_sessionExpiryCheck">
                   </a> <!-- TC_Login_006_sessionExpiryCheck -->
                   <span class="method-name">TC_Login_006_sessionExpiryCheck</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.navigate()&quot; because &quot;com.fortrea.xmr.tests.LoginTest.driver&quot; is null
-	at com.fortrea.xmr.tests.LoginTest.TC_Login_006_sessionExpiryCheck(LoginTest.java:67)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input[data-test=&apos;login-button&apos;]&quot;}
+  (Session info: chrome=139.0.7258.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ASH27&apos;, ip: &apos;172.17.185.112&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\ashut\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 03da4a5bcd1627222b2e7c6db555aaac
+*** Element info: {Using=css selector, value=input[data-test=&apos;login-button&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.fotrea.xmr.pages.LoginPage.isLoginButtonVisible(LoginPage.java:40)
+	at com.fortrea.xmr.tests.LoginTest.TC_Login_006_sessionExpiryCheck(LoginTest.java:68)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 15 stack frames
+... Removed 18 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -210,7 +229,7 @@
         </div> <!-- panel XMR_Test_Suite -->
         <div panel-name="test-xml-XMR_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\IT\XMR-Automation-Framework\testng.xml</span>
+            <span class="header-content">D:\IT\practiceAutomation\XMR-Automation-Framework\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -264,30 +283,30 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginWithValidCredentials')
+data.setCell(0, 1, 'TC_Login_006_sessionExpiryCheck')
 data.setCell(0, 2, 'com.fortrea.xmr.tests.LoginTest')
-data.setCell(0, 3, 7021);
+data.setCell(0, 3, 11083);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginWithInValidCredentials')
+data.setCell(1, 1, 'loginWithValidCredentials')
 data.setCell(1, 2, 'com.fortrea.xmr.tests.LoginTest')
-data.setCell(1, 3, 5577);
+data.setCell(1, 3, 7267);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'TC_Login_006_sessionExpiryCheck')
+data.setCell(2, 1, 'loginWithInValidCredentials')
 data.setCell(2, 2, 'com.fortrea.xmr.tests.LoginTest')
-data.setCell(2, 3, 517);
+data.setCell(2, 3, 5729);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'TC_Login_004_passwordRequiredValidation')
 data.setCell(3, 2, 'com.fortrea.xmr.tests.LoginTest')
-data.setCell(3, 3, 454);
+data.setCell(3, 3, 713);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'TC_Login_003_blankUsernameOrPassword')
 data.setCell(4, 2, 'com.fortrea.xmr.tests.LoginTest')
-data.setCell(4, 3, 375);
+data.setCell(4, 3, 495);
 window.suiteTableData['XMR_Test_Suite']= { tableData: data, tableDiv: 'times-div-XMR_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 42 seconds</span>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
               <div id="times-div-XMR_Test_Suite">
               </div> <!-- times-div-XMR_Test_Suite -->
             </div> <!-- times-div -->
@@ -319,70 +338,70 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">276 ms</span>
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">334 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginWithValidCredentials</span>
-                <span class="method-start">8840 ms</span>
+                <span class="method-start">5095 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15870 ms</span>
+                <span class="method-start">12375 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">16570 ms</span>
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">12828 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginWithInValidCredentials</span>
-                <span class="method-start">21515 ms</span>
+                <span class="method-start">16964 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">27095 ms</span>
+                <span class="method-start">22697 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">27712 ms</span>
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">23021 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_Login_004_passwordRequiredValidation</span>
-                <span class="method-start">31683 ms</span>
+                <span class="method-start">26757 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">32139 ms</span>
+                <span class="method-start">27471 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">32661 ms</span>
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">27903 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">TC_Login_003_blankUsernameOrPassword</span>
-                <span class="method-start">36613 ms</span>
+                <span class="method-start">30540 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">36991 ms</span>
+                <span class="method-start">31036 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">37433 ms</span>
+                <span class="method-name">setUp(chrome, false)</span>
+                <span class="method-start">31399 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">TC_Login_006_sessionExpiryCheck</span>
-                <span class="method-start">41163 ms</span>
+                <span class="method-start">33786 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">42131 ms</span>
+                <span class="method-start">45145 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">flushReport</span>
-                <span class="method-start">42626 ms</span>
+                <span class="method-start">45595 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

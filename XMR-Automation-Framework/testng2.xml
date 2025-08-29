@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="XMR-Suite" parallel="tests" thread-count="3">
+
+
+    <listeners>
+        <listener class-name="com.fortrea.xmr.utils.TestListener"/>
+    </listeners>
+
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="isRemote" value="true"/>
+        <classes>
+            <class name="com.fortrea.xmr.tests.LoginTest">
+            <methods>
+                    <include name="TC_Login_006_sessionExpiryCheck"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="FirefoxTest">
+        <parameter name="browser" value="firefox"/>
+        <parameter name="isRemote" value="true"/>
+        <classes>
+            <class name="com.fortrea.xmr.tests.LoginTest">
+            <methods>
+                    <include name="TC_Login_006_sessionExpiryCheck"/>
+                </methods>
+        </class>    
+        </classes>
+    </test>
+
+</suite>

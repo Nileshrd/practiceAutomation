@@ -16,8 +16,8 @@ public class DashboardTest extends BaseTest {
 
     @Test
     public void testDashboardLoad() {
-    	LoginPage login = new LoginPage();
-        DashboardPage dashboard = new DashboardPage();
+    	LoginPage login = new LoginPage(driver);
+        DashboardPage dashboard = new DashboardPage(driver);
         String username = ExcelUtil.getCellData("LoginData.xlsx", "Sheet1", 1, 1);
         String password = ExcelUtil.getCellData("LoginData.xlsx", "Sheet1", 1, 2);
         login.login(username, password);

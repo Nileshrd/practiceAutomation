@@ -12,8 +12,8 @@ public class LoginTest extends BaseTest {
 	
 	@Test(priority=1)
     public void loginWithValidCredentials() throws InterruptedException {
-       LoginPage login = new LoginPage();
-        DashboardPage dashboard = new DashboardPage();
+       LoginPage login = new LoginPage(driver);
+        DashboardPage dashboard = new DashboardPage(driver);
         String username = ExcelUtil.getCellData("LoginData.xlsx", "Sheet1", 1, 1);
         String password = ExcelUtil.getCellData("LoginData.xlsx", "Sheet1", 1, 2);
         login.login(username, password);
@@ -26,7 +26,7 @@ public class LoginTest extends BaseTest {
 	
 	@Test(priority=2)
     public void loginWithInValidCredentials() throws InterruptedException {
-       LoginPage login = new LoginPage();
+       LoginPage login = new LoginPage(driver);
        String username = ExcelUtil.getCellData("LoginData.xlsx", "Sheet1", 2, 1);
        String password = ExcelUtil.getCellData("LoginData.xlsx", "Sheet1", 2, 2);
        login.login(username, password);
@@ -37,7 +37,7 @@ public class LoginTest extends BaseTest {
     } 
 	 @Test(priority=4)
 	    public void TC_Login_003_blankUsernameOrPassword() {
-	        LoginPage login = new LoginPage();
+	        LoginPage login = new LoginPage(driver);
 	        login.login("", "");
 
 	        Assert.assertTrue(login.isUsernameRequiredMsgDisplayed(), "Username required message should appear");
@@ -46,7 +46,7 @@ public class LoginTest extends BaseTest {
 	 
 	 @Test(priority=3)
 	    public void TC_Login_004_passwordRequiredValidation() {
-		 LoginPage login = new LoginPage();
+		 LoginPage login = new LoginPage(driver);
 	       String username = ExcelUtil.getCellData("LoginData.xlsx", "Sheet1", 1, 1);
 	       String password = ExcelUtil.getCellData("LoginData.xlsx", "Sheet1", 5, 5);
 	       login.login(username, password);
@@ -57,7 +57,7 @@ public class LoginTest extends BaseTest {
 	 
 	 @Test(priority=5)
 	    public void TC_Login_006_sessionExpiryCheck() throws InterruptedException {
-		 LoginPage login = new LoginPage();
+		 LoginPage login = new LoginPage(driver);
 	       String username = ExcelUtil.getCellData("LoginData.xlsx", "Sheet1", 1, 1);
 	       String password = ExcelUtil.getCellData("LoginData.xlsx", "Sheet1", 1, 2);
 	       login.login(username, password);
