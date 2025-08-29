@@ -6,10 +6,10 @@
       <class name="com.fortrea.xmr.tests.LoginTest">
         <methods>
           <include name="flushReport"/>
-          <include name="setup"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="setupReport"/>
           <include name="TC_Login_006_sessionExpiryCheck"/>
+          <include name="setupReport"/>
         </methods>
       </class> <!-- com.fortrea.xmr.tests.LoginTest -->
     </classes>

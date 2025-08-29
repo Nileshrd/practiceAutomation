@@ -3,13 +3,11 @@ package com.fotrea.xmr.pages;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.*;
 
-import com.fotrea.xmr.base.DriverManager;
-
 public class DashboardPage {
     WebDriver driver;
 
-    public DashboardPage() {
-    	this.driver = DriverManager.getDriver();
+    public DashboardPage(WebDriver driver) {
+    	this.driver = driver;
         PageFactory.initElements(driver, this);
     }
 

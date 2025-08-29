@@ -1,12 +1,11 @@
 package com.fotrea.xmr.base;
-
-import java.time.Duration;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -14,9 +13,11 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.fotrea.xmr.config.ConfigReader;
 
 public class BaseTest {
-    public static WebDriver driver;
+	public WebDriver driver;;
     public static ExtentReports extent;
     public static ExtentTest test;
+    
+    
 
     @BeforeSuite
     public void setupReport() {
@@ -26,28 +27,28 @@ public class BaseTest {
     }
 
     @BeforeMethod
-    public void setup() {
-        ConfigReader.loadProperties();
-        String browser = ConfigReader.get("browser");
-        String baseurl = ConfigReader.get("TestUrl");
+    @Parameters({"browser", "isRemote"})
+    public void setUp(@Optional("chrome") String browser, @Optional("false") String isRemote) {
 
-        WebDriver driver = WebDriverFactory.createInstance(browser);
-        DriverManager.setDriver(driver);
-        DriverManager.getDriver().get(baseurl);
+        // Read Grid URL from ConfigReader
+        String gridURL = ConfigReader.getProperty("gridURL");
+        
 
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        // Initialize driver (local or Selenium Grid)
+        WebDriverFactory.setDriver(browser, Boolean.parseBoolean(isRemote), gridURL);
+        driver = WebDriverFactory.getDriver();
+        String testurl = ConfigReader.getProperty("TestUrl");
+        driver.get(testurl);
         
     }
-
-    public void getAlert() {
-    	
-    	driver.switchTo().alert().accept();
-    }
+    
+  
+    
     @AfterMethod
     public void tearDown() {
-    	DriverManager.quitDriver();
+        WebDriverFactory.quitDriver();
     }
+    
 
     @AfterSuite
     public void flushReport() {
