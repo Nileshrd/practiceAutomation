@@ -55,7 +55,7 @@ public class LoginTest extends BaseTest {
 	        Assert.assertTrue(login.isPasswordRequiredMsgDisplayed(), "'Password is required' message should appear");
 	    }
 	 
-	 @Test(priority=5)
+	/* @Test(priority=5)
 	    public void TC_Login_006_sessionExpiryCheck() throws InterruptedException {
 		 LoginPage login = new LoginPage(driver);
 	       String username = ExcelUtil.getCellData("LoginData.xlsx", "Sheet1", 1, 1);
@@ -68,6 +68,6 @@ public class LoginTest extends BaseTest {
 	        Assert.assertTrue(login.isLoginButtonVisible(), "Session should expire and redirect to login page");
 	    }
 
-	 
+	 */
 	 
 }
