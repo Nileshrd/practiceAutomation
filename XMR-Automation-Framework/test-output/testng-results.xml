@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-17T00:06:51 IST" name="XMR Test Suite" finished-at="2025-08-17T00:07:36 IST" duration-ms="45206">
+  <suite started-at="2025-08-30T01:08:57 IST" name="XMR Test Suite" finished-at="2025-08-30T01:09:39 IST" duration-ms="41612">
     <groups>
     </groups>
-    <test started-at="2025-08-17T00:06:51 IST" name="Smoke Suite" finished-at="2025-08-17T00:07:36 IST" duration-ms="45206">
+    <test started-at="2025-08-30T01:08:57 IST" name="Smoke Suite" finished-at="2025-08-30T01:09:39 IST" duration-ms="41612">
       <class name="com.fortrea.xmr.tests.LoginTest">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-17T00:06:51 IST" name="setupReport" finished-at="2025-08-17T00:06:51 IST" duration-ms="293" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-30T01:08:57 IST" name="setupReport" finished-at="2025-08-30T01:08:57 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-17T00:06:51 IST" name="setUp" finished-at="2025-08-17T00:06:56 IST" duration-ms="4759" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-30T01:08:57 IST" name="setUp" finished-at="2025-08-30T01:09:03 IST" duration-ms="5347" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginWithValidCredentials()[pri:1, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-17T00:06:56 IST" name="loginWithValidCredentials" finished-at="2025-08-17T00:07:03 IST" duration-ms="7267" status="PASS">
+        <test-method signature="loginWithValidCredentials()[pri:1, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-30T01:09:03 IST" name="loginWithValidCredentials" finished-at="2025-08-30T01:09:09 IST" duration-ms="6513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-17T00:07:03 IST" name="tearDown" finished-at="2025-08-17T00:07:04 IST" duration-ms="446" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-30T01:09:09 IST" name="tearDown" finished-at="2025-08-30T01:09:10 IST" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-17T00:07:04 IST" name="setUp" finished-at="2025-08-17T00:07:08 IST" duration-ms="4135" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-30T01:09:10 IST" name="setUp" finished-at="2025-08-30T01:09:12 IST" duration-ms="2622" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,15 +51,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginWithInValidCredentials()[pri:2, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-17T00:07:08 IST" name="loginWithInValidCredentials" finished-at="2025-08-17T00:07:14 IST" duration-ms="5729" status="PASS">
+        <test-method signature="loginWithInValidCredentials()[pri:2, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-30T01:09:12 IST" name="loginWithInValidCredentials" finished-at="2025-08-30T01:09:18 IST" duration-ms="5760" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithInValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-17T00:07:14 IST" name="tearDown" finished-at="2025-08-17T00:07:14 IST" duration-ms="323" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-30T01:09:18 IST" name="tearDown" finished-at="2025-08-30T01:09:18 IST" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-17T00:07:14 IST" name="setUp" finished-at="2025-08-17T00:07:18 IST" duration-ms="3735" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-30T01:09:18 IST" name="setUp" finished-at="2025-08-30T01:09:21 IST" duration-ms="2836" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,15 +75,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_Login_004_passwordRequiredValidation()[pri:3, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-17T00:07:18 IST" name="TC_Login_004_passwordRequiredValidation" finished-at="2025-08-17T00:07:18 IST" duration-ms="713" status="PASS">
+        <test-method signature="TC_Login_004_passwordRequiredValidation()[pri:3, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-30T01:09:21 IST" name="TC_Login_004_passwordRequiredValidation" finished-at="2025-08-30T01:09:22 IST" duration-ms="574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_Login_004_passwordRequiredValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-17T00:07:18 IST" name="tearDown" finished-at="2025-08-17T00:07:19 IST" duration-ms="430" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-30T01:09:22 IST" name="tearDown" finished-at="2025-08-30T01:09:22 IST" duration-ms="286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-17T00:07:19 IST" name="setUp" finished-at="2025-08-17T00:07:21 IST" duration-ms="2637" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-30T01:09:22 IST" name="setUp" finished-at="2025-08-30T01:09:24 IST" duration-ms="2252" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,15 +99,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_Login_003_blankUsernameOrPassword()[pri:4, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-17T00:07:21 IST" name="TC_Login_003_blankUsernameOrPassword" finished-at="2025-08-17T00:07:22 IST" duration-ms="495" status="PASS">
+        <test-method signature="TC_Login_003_blankUsernameOrPassword()[pri:4, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-30T01:09:24 IST" name="TC_Login_003_blankUsernameOrPassword" finished-at="2025-08-30T01:09:25 IST" duration-ms="400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_Login_003_blankUsernameOrPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-17T00:07:22 IST" name="tearDown" finished-at="2025-08-17T00:07:22 IST" duration-ms="362" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-30T01:09:25 IST" name="tearDown" finished-at="2025-08-30T01:09:25 IST" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-17T00:07:22 IST" name="setUp" finished-at="2025-08-17T00:07:25 IST" duration-ms="2387" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-30T01:09:25 IST" name="setUp" finished-at="2025-08-30T01:09:27 IST" duration-ms="2267" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,28 +123,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_Login_006_sessionExpiryCheck()[pri:5, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-17T00:07:25 IST" name="TC_Login_006_sessionExpiryCheck" finished-at="2025-08-17T00:07:36 IST" duration-ms="11083" status="FAIL">
+        <test-method signature="TC_Login_006_sessionExpiryCheck()[pri:5, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-30T01:09:27 IST" name="TC_Login_006_sessionExpiryCheck" finished-at="2025-08-30T01:09:38 IST" duration-ms="11147" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"input[data-test='login-button']"}
-  (Session info: chrome=139.0.7258.67)
+  (Session info: chrome=139.0.7258.139)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ASH27', ip: '172.17.185.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+System info: host: 'ASH27', ip: '10.249.70.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\ashut\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 03da4a5bcd1627222b2e7c6db555aaac
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\ashut\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e39b6832e957e86ec4d47b9e876c6317
 *** Element info: {Using=css selector, value=input[data-test='login-button']}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[data-test='login-button']"}
-  (Session info: chrome=139.0.7258.67)
+  (Session info: chrome=139.0.7258.139)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'ASH27', ip: '172.17.185.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+System info: host: 'ASH27', ip: '10.249.70.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.67, chrome: {chromedriverVersion: 139.0.7258.68 (40ff94600b6e..., userDataDir: C:\Users\ashut\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57453}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 03da4a5bcd1627222b2e7c6db555aaac
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.139, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\ashut\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e39b6832e957e86ec4d47b9e876c6317
 *** Element info: {Using=css selector, value=input[data-test='login-button']}
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
@@ -187,11 +187,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_Login_006_sessionExpiryCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-17T00:07:36 IST" name="tearDown" finished-at="2025-08-17T00:07:36 IST" duration-ms="366" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-30T01:09:39 IST" name="tearDown" finished-at="2025-08-30T01:09:39 IST" duration-ms="351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-17T00:07:36 IST" name="flushReport" finished-at="2025-08-17T00:07:37 IST" duration-ms="345" status="PASS">
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.fortrea.xmr.tests.LoginTest@198b6731]" started-at="2025-08-30T01:09:39 IST" name="flushReport" finished-at="2025-08-30T01:09:39 IST" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->

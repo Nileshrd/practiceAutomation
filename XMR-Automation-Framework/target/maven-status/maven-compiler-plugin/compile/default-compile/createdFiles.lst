@@ -1,0 +1,10 @@
+com\fotrea\xmr\config\ConfigReader.class
+com\fortrea\xmr\utils\TestListener.class
+com\fotrea\xmr\pages\LoginPage.class
+com\fortrea\xmr\utils\ScreenshotUtil.class
+com\fotrea\xmr\pages\DashboardPage.class
+com\fotrea\xmr\base\BaseTest.class
+com\fortrea\xmr\utils\ExcelUtil.class
+com\fotrea\xmr\pages\AddNewViewPage.class
+com\fortrea\xmr\utils\RetryAnalyzer.class
+com\fotrea\xmr\base\WebDriverFactory.class
